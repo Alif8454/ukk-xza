@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-style: none;
+    list-style: none;
+    overflow: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width:100%;
+  }
+  
+  .content{
+    width: 22rem;
+    height: 30rem;
+    background: #2e2f33;
+    padding: 2rem;
+    border-radius: 14px;
+  }
+  
+  .logo_content{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .logo_content .text_logo{
+    color:#ffff;
+    font-size: 1rem;
+    font-weight: 550;
+  }
+  
+  .icon_logo{
+    width: 3rem;
+    height:3rem;
+    border-radius: 100%;
+    background: #12be57;
+  }
+  
+   svg.logo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 4rem;
+    height: 2rem;
+    top: 6px;
+    right: 8px;
+  }
+  
+  .register_login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+  }
+  
+  .register_login .register a {
+    color: #fafafa;
+    font-weight: 500;
+    font-size:12px;
+    border-bottom: 2px solid #12be57;
+    transition: all 1s ease;
+    pointer-events: none;
+  }
+  
+  .register_login .login a {
+    color: #fafafa;
+    font-weight: 500;
+    font-size:12px;
+  }
+  
+  /* --------- Form -------- */
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  form input{
+    background: #fafafa;
+    padding: 0.8rem 1rem;
+    border: none ;
+    border-radius: 5rem;
+    margin: 10px 0;
+    border-style: none ;
+  }
+  
+  form input::placeholder{
+    color: #B9B9BB;
+  }
+  
+  .check_box{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form .check_box label{
+    color: #fafafa;
+    font-size: 10px;
+  }
+  
+  form .check_box{
+   padding-bottom: 0.6rem;
+  }
+  
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input.button{
+    padding: 0.8rem 7rem;
+    background: #12be57;
+    border-radius: 40px;
+    color: #fafafa;
+    border-style: none;
+    font-size: 18px;
+  }
